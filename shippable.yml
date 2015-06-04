@@ -7,8 +7,12 @@ env:
 services:
   - rethinkdb
 
+archive: true
+
 notifications:
      email:
          recipients:
-             - exampleone@org.com
+             - vidya@shippable.com
              - exampletwo@org.com
+             
+             
